@@ -1,7 +1,8 @@
 var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
-var MONGODB_URI = process.env.MONGODBURL || "mongodb://localhost/scraper";
+var MONGODB_URI = "mongodb://TeresaG:MoeMolly369!@ds229373.mlab.com:29373/heroku_b276jqb9"
+// var MONGODB_URI = process.env.MONGODBURL || "mongodb://localhost/scraper";
 require("dotenv");
 
 // Our scraping tools
