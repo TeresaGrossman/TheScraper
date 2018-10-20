@@ -2,7 +2,7 @@ var express = require("express");
 var logger = require("morgan");
 var mongoose = require("mongoose");
 require("dotenv");
-// var MONGODB_URI = "mongodb://TeresaG:MoeMolly369!@ds229373.mlab.com:29373/heroku_b276jqb9"
+
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/scraper";
 
 
